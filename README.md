@@ -10,7 +10,7 @@
 
 ### Screenshot - 1920 x 1080
 
-![Screenshot - 1920 x 1080 ](/public/screenshot.png?raw=true "Screenshot")
+![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
 
 ---
 
