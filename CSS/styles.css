@@ -16,8 +16,13 @@ html {
   background-color: #fff;
   position: relative;
   z-index: 1;
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
 }
 
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
 
 /* =====  End of General Settings  ====== */
 
@@ -76,9 +81,6 @@ html {
     padding: 50px 0;
 }
 
-a {
-    text-decoration: none;
-}
 
 h1 {
     font-size: 24px;
@@ -142,7 +144,6 @@ h1 {
   overflow: hidden;
   width: 100%;
   height: 200px;
-  background-color: lawngreen;
   display: flex;
 }
 
@@ -170,10 +171,84 @@ h1 {
   height: 90px;
   padding: 0;
   color: #6e6e6e;
-  font-size: 0.8334em;
   line-height: 1.2;
   text-align: center;
   display: block;
 }
 
+.footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+
+.left {
+  font-size: 0.625rem;
+  float: left;
+  clear: both;
+  width: 45%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+
+.left a {
+  font-size: 0.625rem;
+}
+
+.footer .right {
+  float: right;
+  width: 55%;
+  padding-top: 1em;
+  text-align: right;
+}
+
+.footer ul {
+  list-style: none outside;
+  display: flex;
+}
+
+.footer .piped li.first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+.footer .piped li {
+  display: inline;
+  float: none;
+  margin-left: .6em;
+  padding-left: .6em;
+  border-left: 1px solid #ccc;
+  font-size: 0.625em;
+  max-height: 0.8rem;
+}
+
+.disclaimer {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+  font-size: 0.625rem;
+}
+
+.disclaimer p {
+  display: inline;
+  margin: 0;
+}
+
+.disclaimer ul {
+  display: inline-flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.disclaimer ul li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.disclaimer .border-left { 
+  border-left: 1px solid #ccc;
+}
 /* =====  End of Footer  ====== */
