@@ -6,6 +6,10 @@
 
 > This project is completed by Simon Peter Debbarma, in partial requirements of the Microverse cirriculum. 
 
+---
+
+### Screenshot - 1920 x 1080
+
 ![Screenshot - 1920 x 1080 ](/public/screenshot.png?raw=true "Screenshot")
 
 ---
