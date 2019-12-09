@@ -55,16 +55,26 @@ a:active {
   line-height: 36px;
   color: whitesmoke;
   font-size: 0.8rem;
+  font-weight: 500;
   letter-spacing: 0.05rem;
+  overflow: hidden;
 }
 
 .nav-items a {
   color: whitesmoke;
   display: block;
+  border-right: 1px solid grey;
+  overflow: hidden;
+}
+
+.nav-items a:hover {
+  background: linear-gradient(to bottom, rgba(52, 52, 52, 0.8), rgba(54, 54, 54, 0.85) 50%,rgba(62, 62, 62, 0.9) 50%, rgba(78, 78, 78, 0.5));
+  overflow: hidden;
 }
 
 .navbar .icon {
   font-size: 1.4rem;
+  border-radius: 4px 0 0 4px;
 }
 
 .search {
@@ -77,6 +87,11 @@ a:active {
   width: 100%;
   height: 100%;
   position: relative;
+  cursor: text;
+}
+
+.nav-form a {
+  cursor: text;
 }
 
 .fa-search {
@@ -84,6 +99,7 @@ a:active {
   left: 10px;
   top: 4px;
 }
+
 /* =====  End of Navigation  ====== */
 
 
