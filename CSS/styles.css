@@ -41,12 +41,49 @@ a:active {
   margin: 0 auto;
   position: relative;
   top: calc(65px + 18px);
-  display: block;
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.8), rgba(94, 94, 94, 0.85) 50%,rgba(112, 112, 112, 0.9) 50%, rgba(128, 128, 128, 0.5) );
+  display: flex;
+  list-style-type: none;
 }
 
+.nav-items {
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 36px;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  letter-spacing: 0.05rem;
+}
 
+.nav-items a {
+  color: whitesmoke;
+  display: block;
+}
+
+.navbar .icon {
+  font-size: 1.4rem;
+}
+
+.search {
+  padding: 8px 13px;
+}
+
+.nav-form {
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
 /* =====  End of Navigation  ====== */
 
 
@@ -189,6 +226,10 @@ h1 {
   width: 45%;
   padding-top: 1.5em;
   text-align: left;
+}
+
+.footer a {
+  color:#08c;
 }
 
 .footer .left a {
