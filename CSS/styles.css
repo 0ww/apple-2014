@@ -43,7 +43,7 @@ a:active {
   top: calc(65px + 18px);
   border-radius: 4px;
   box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
-  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.8), rgba(94, 94, 94, 0.85) 50%,rgba(112, 112, 112, 0.9) 50%, rgba(128, 128, 128, 0.5) );
+  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.8), rgba(94, 94, 94, 0.85) 50%, rgba(112, 112, 112, 0.9) 50%, rgba(128, 128, 128, 0.5));
   display: flex;
   list-style-type: none;
 }
@@ -67,8 +67,12 @@ a:active {
   overflow: hidden;
 }
 
+.nav-form a {
+  cursor: text;
+}
+
 .nav-items a:hover {
-  background: linear-gradient(to bottom, rgba(52, 52, 52, 0.8), rgba(54, 54, 54, 0.85) 50%,rgba(62, 62, 62, 0.9) 50%, rgba(78, 78, 78, 0.5));
+  background: linear-gradient(to bottom, rgba(52, 52, 52, 0.8), rgba(54, 54, 54, 0.85) 50%, rgba(62, 62, 62, 0.9) 50%, rgba(78, 78, 78, 0.5));
   overflow: hidden;
 }
 
@@ -87,10 +91,6 @@ a:active {
   width: 100%;
   height: 100%;
   position: relative;
-  cursor: text;
-}
-
-.nav-form a {
   cursor: text;
 }
 
@@ -244,8 +244,8 @@ h1 {
   text-align: left;
 }
 
-.footer a {
-  color:#08c;
+.footer-link {
+  color: #08c;
 }
 
 .footer .left a {
