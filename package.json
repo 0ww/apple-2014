@@ -1,0 +1,27 @@
+{
+  "name": "apple-2014",
+  "version": "1.0.0",
+  "description": "A 2014 Apple.com Homepage Clone",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint": "^12.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonpeterdebbarma/apple-2014.git"
+  },
+  "author": "Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simonpeterdebbarma/apple-2014/issues"
+  },
+  "homepage": "https://github.com/simonpeterdebbarma/apple-2014#readme"
+}
