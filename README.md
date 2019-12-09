@@ -25,7 +25,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/simonpeterdebbarma/apple-2014/b5286b65a9808b69199b260d6785948f5a63c04d/index.html)
+[Live Demo Link](https://simonpeterdebbarma.github.io/apple-2014/)
 
 ---
 
