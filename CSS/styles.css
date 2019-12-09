@@ -20,7 +20,9 @@ html {
   font-family: 'Arimo', sans-serif;
 }
 
-a:link, a:visited, a:active {
+a:link,
+a:visited,
+a:active {
   text-decoration: none;
 }
 
@@ -76,25 +78,23 @@ a:link, a:visited, a:active {
 }
 
 .header {
-    margin-top: 172px;
-    padding: 50px 0;
-    padding: 50px 0;
+  margin-top: 172px;
+  padding: 50px 0;
 }
 
-
 h1 {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: bold;
-    font-style: normal;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-style: normal;
 }
 
 .billboard .title img {
-    position: relative;
-    display: block;
-    margin: 0 auto -10px auto;
-    width: 980px;
-    height: 104px;
+  position: relative;
+  display: block;
+  margin: 0 auto -10px auto;
+  width: 980px;
+  height: 104px;
 }
 
 .subheadline {
@@ -103,17 +103,17 @@ h1 {
 }
 
 .billboard .subheadline img {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 980px; 
-    height: 82px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 980px;
+  height: 82px;
 }
 
 .hero-cta {
   overflow: hidden;
   margin: 0 auto;
-} 
+}
 
 .billboard .hero-cta a {
   display: block;
@@ -125,9 +125,9 @@ h1 {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 980px; 
+  width: 980px;
   height: 64px;
-} 
+}
 
 /* =====  End of Billboard  ====== */
 
@@ -191,7 +191,7 @@ h1 {
   text-align: left;
 }
 
-.left a {
+.footer .left a {
   font-size: 0.625rem;
 }
 
@@ -216,8 +216,8 @@ h1 {
 .footer .piped li {
   display: inline;
   float: none;
-  margin-left: .6em;
-  padding-left: .6em;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
   border-left: 1px solid #ccc;
   font-size: 0.625em;
   max-height: 0.8rem;
@@ -243,12 +243,13 @@ h1 {
   padding-left: 0;
 }
 
-.disclaimer ul li {
+.disclaimer-li {
   padding-left: 5px;
   padding-right: 5px;
 }
 
-.disclaimer .border-left { 
+.disclaimer .border-left {
   border-left: 1px solid #ccc;
 }
+
 /* =====  End of Footer  ====== */
