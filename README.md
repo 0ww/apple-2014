@@ -66,7 +66,8 @@
 
 - Github: [@simonpeterdebbarma](https://github.com/simonpeterdebbarma)
 - Twitter: [@simonpdebbarma](https://twitter.com/simonpdebbarma)
-- Linkedin: [linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
+- Keybase: @simonpd
 
 ---
 
