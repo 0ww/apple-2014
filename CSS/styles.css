@@ -1,0 +1,304 @@
+/* =========================================
+=            General Settings            =
+========================================= */
+
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0 auto;
+}
+
+html {
+  height: 100%;
+  min-height: 830px;
+  width: 1440px;
+  min-width: 1024px;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+  font-size: 16px;
+  font-family: 'Arimo', sans-serif;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+/* =====  End of General Settings  ====== */
+
+/* ====================================
+=            Navigation            =
+==================================== */
+
+.navbar {
+  width: 980px;
+  z-index: 9998;
+  height: 36px;
+  margin: 0 auto;
+  position: relative;
+  top: calc(65px + 18px);
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 2px;
+  background: linear-gradient(to bottom, rgba(102, 102, 102, 0.8), rgba(94, 94, 94, 0.85) 50%, rgba(112, 112, 112, 0.9) 50%, rgba(128, 128, 128, 0.5));
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items {
+  flex: 1;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 36px;
+  color: whitesmoke;
+  font-size: 0.8rem;
+  font-weight: 500;
+  letter-spacing: 0.05rem;
+  overflow: hidden;
+}
+
+.nav-items a {
+  color: whitesmoke;
+  display: block;
+  border-right: 1px solid grey;
+  overflow: hidden;
+}
+
+.nav-form a {
+  cursor: text;
+}
+
+.nav-items a:hover {
+  background: linear-gradient(to bottom, rgba(52, 52, 52, 0.8), rgba(54, 54, 54, 0.85) 50%, rgba(62, 62, 62, 0.9) 50%, rgba(78, 78, 78, 0.5));
+  overflow: hidden;
+}
+
+.navbar .icon {
+  font-size: 1.4rem;
+  border-radius: 4px 0 0 4px;
+}
+
+.search {
+  padding: 8px 13px;
+}
+
+.nav-form {
+  box-shadow: rgba(0, 0, 0, 0.6) 0 2px 1px inset, rgba(255, 255, 255, 0.2) 0 1px 0;
+  border-radius: 12px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  cursor: text;
+}
+
+.fa-search {
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+
+/* =====  End of Navigation  ====== */
+
+/* ==================================
+=            Billboard            =
+================================== */
+
+.billboard {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 292px;
+  left: 0;
+  overflow: hidden;
+  display: block;
+}
+
+.hero {
+  width: 1440px;
+  background: url(../public/your_verse_hero.jpg) 50% 100% no-repeat;
+  background-size: auto;
+  background-size: 1440px 1315px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+.header {
+  margin-top: 172px;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.billboard .title img {
+  position: relative;
+  display: block;
+  margin: 0 auto -10px auto;
+  width: 980px;
+  height: 104px;
+}
+
+.subheadline {
+  margin-bottom: 27px;
+  margin-top: 1px;
+}
+
+.billboard .subheadline img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 980px;
+  height: 82px;
+}
+
+.hero-cta {
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.billboard .hero-cta a {
+  display: block;
+  margin: 0 auto;
+  height: 32px;
+}
+
+.billboard .hero-cta img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 980px;
+  height: 64px;
+}
+
+/* =====  End of Billboard  ====== */
+
+/* ===============================
+=            Promos            =
+=============================== */
+
+.promos {
+  position: absolute;
+  z-index: 1;
+  bottom: 90px;
+  overflow: hidden;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.promo-flex-item {
+  flex: 1 1 100%;
+}
+
+/* =====  End of Promos  ====== */
+
+/* ==============================
+=            Footer            =
+============================== */
+
+.footer {
+  position: absolute;
+  z-index: 1;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  min-width: 980px;
+  width: 100%;
+  height: 90px;
+  padding: 0;
+  color: #6e6e6e;
+  line-height: 1.2;
+  text-align: center;
+  display: block;
+}
+
+.footer .wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 1em 0 2.6em;
+}
+
+.left {
+  font-size: 0.625rem;
+  float: left;
+  clear: both;
+  width: 45%;
+  padding-top: 1.5em;
+  text-align: left;
+}
+
+.footer-link {
+  color: #08c;
+}
+
+.footer .left a {
+  font-size: 0.625rem;
+}
+
+.footer .right {
+  float: right;
+  width: 55%;
+  padding-top: 1em;
+  text-align: right;
+}
+
+.footer ul {
+  list-style: none outside;
+  display: flex;
+}
+
+.footer .piped li.first {
+  margin-left: 0;
+  padding-left: 0;
+  border-left: none;
+}
+
+.footer .piped li {
+  display: inline;
+  float: none;
+  margin-left: 0.6em;
+  padding-left: 0.6em;
+  border-left: 1px solid #ccc;
+  font-size: 0.625em;
+  max-height: 0.8rem;
+}
+
+.disclaimer {
+  float: left;
+  clear: both;
+  width: 49%;
+  padding-top: 1.5em;
+  text-align: left;
+  font-size: 0.625rem;
+}
+
+.disclaimer p {
+  display: inline;
+  margin: 0;
+}
+
+.disclaimer ul {
+  display: inline-flex;
+  margin: 0;
+  padding-left: 0;
+}
+
+.disclaimer-li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.disclaimer .border-left {
+  border-left: 1px solid #ccc;
+}
+
+/* =====  End of Footer  ====== */

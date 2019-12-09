@@ -6,7 +6,11 @@
 
 > This project is completed by Simon Peter Debbarma, in partial requirements of the Microverse cirriculum. 
 
-![Screenshot - 1920 x 1080 ](/public/screenshot.png?raw=true "Screenshot")
+---
+
+### Screenshot - 1920 x 1080
+
+![Screenshot - 1920 x 1080 ](/public/screenshot.jpg?raw=true "Screenshot")
 
 ---
 
@@ -21,7 +25,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://simonpeterdebbarma.github.io/apple-2014)
+[Live Demo Link](https://rawcdn.githack.com/simonpeterdebbarma/apple-2014/b5286b65a9808b69199b260d6785948f5a63c04d/index.html)
 
 ---
 
@@ -66,7 +70,8 @@
 
 - Github: [@simonpeterdebbarma](https://github.com/simonpeterdebbarma)
 - Twitter: [@simonpdebbarma](https://twitter.com/simonpdebbarma)
-- Linkedin: [linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
+- Linkedin: [Linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
+- Keybase: @simonpd
 
 ---
 
