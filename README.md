@@ -4,8 +4,6 @@
 
 # New York Times - Article Clone
 
-> This project is completed by Simon Peter Debbarma, in partial requirements of the Microverse cirriculum. 
-
 ---
 
 ### Screenshot - 1920 x 1080
@@ -69,7 +67,7 @@
 👤 **Simon Peter Debbarma**
 
 - Github: [@simonpeterdebbarma](https://github.com/simonpeterdebbarma)
-- Twitter: [@simonpdebbarma](https://twitter.com/simonpdebbarma)
+- Twitter: [@SimonLikelySaid](https://twitter.com/simonpdebbarma)
 - Linkedin: [Linkedin](https://www.linkedin.com/in/simon-peter-debbarma/)
 - Keybase: @simonpd
 
@@ -84,10 +82,6 @@ Feel free to check the [issues page](issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- [Microverse](https://microverse.org)
 
 ---
 
